@@ -30,8 +30,8 @@ namespace CAlev_Devises.Controllers
         {
             ViewBag.Message = "Test.";
 
-            return Content("Ceci est un test.");
-            //return View();
+            //return Content("Ceci est un test.");
+            return View();
         }
     }
 }
